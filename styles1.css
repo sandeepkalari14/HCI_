@@ -1,0 +1,74 @@
+#map-container {
+  position: relative;
+  text-align: center; /* Centers the inline image */
+}
+
+#map-image {
+  width: 500px;
+  height: 100vh;
+  max-width: 500px;
+  cursor: pointer;
+}
+
+#popup {
+  display: none;
+  position: absolute;
+  width: 500px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+button {
+  display: block;
+  width: calc(50% - 10px);
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:focus,
+button:hover {
+  background-color: #0056b3;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/* ... (your existing styles) ... */
+
+#navigation-buttons {
+  /* position: fixed;
+  bottom: 0; */
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background: #f9f9f9; /* Light gray background */
+  border-top: 1px solid #eaeaea; /* Light gray border */
+  display: flex;
+}
+
+#navigation-buttons button {
+  margin: 10 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#navigation-buttons button:hover {
+  background-color: #0056b3;
+}

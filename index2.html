@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map Dropdown</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+<div id="map-container">
+    <img src="./Images/imageppt-input2.png" alt="Map" usemap="#map-areas" id="map-image"> <!-- Replace with your actual map image -->
+    <map name="map-areas">
+        <area shape="rect" coords="20,20,140,60" href="#" alt="Dropoff" id="dropoff-area">
+    </map>
+    <div id="dropdown-list" class="hidden">
+        <ul>
+            <li>1070W, 48th st, 23508</li>
+            <li>1048W, 48th st, 23508</li>
+            <!-- More pickup locations here -->
+        </ul>
+        <ul>
+            <li>Village building 2</li>
+            <li>Barry Art Building</li>
+            <!-- More dropoff locations here -->
+        </ul>
+    </div>
+</div>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Center Top Text Example</title>
+<style>
+  .center-top {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px; /* Adjusts the distance from the top edge */
+    max-width: 300px; /* Adjusts the maximum width of the text box */
+    text-align: center; /* Centers the text within the div */
+  }
+</style>
+</head>
+<body>
+
+<div class="center-top">
+    <p>In the search bar instead of serching for location he/she wants to travel. User can select formt the list that is provided on search bar.</p>
+    <p><h4>Instructions:</h4>To get this inforamtion go to the search bar click on the button that is provided on the left most of the search bar. Now the address will pop up then user can directly selct that fromt eh list.</p>
+    <p>Click on next page for the displaying next feature</p>
+</div>
+
+</body>
+</html>
+
+<div id="navigation-buttons">
+    <button id="prev-button">Previous Page</button>
+    <button id="next-button">Next Page</button>
+  </div>
+<script src="script2.js"></script>
+</body>
+</html>

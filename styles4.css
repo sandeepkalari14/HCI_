@@ -1,0 +1,88 @@
+/* Add previous general styles here */
+
+#map-container {
+  position: relative;
+  max-width: 760px; /* Adjust based on the actual image width */
+  margin: auto;
+}
+
+#map-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Adjust the second button's left position to where 'Delay Info.' is supposed to be */
+button:nth-of-type(2) {
+  left: auto;
+  right: 10px;
+}
+
+.button1 {
+  position: absolute;
+  bottom: 450px; /* Adjust based on your layout */
+  right: 10px; /* Adjust for each button based on your layout */
+  padding: 10px;
+  border: none;
+  /* background-color: #007bff; */
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button2 {
+  position: absolute;
+  bottom: 500px; /* Adjust based on your layout */
+  right: 10px; /* Adjust for each button based on your layout */
+  padding: 10px;
+  border: none;
+  /* background-color: #007bff; */
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#info-dialog {
+  position: fixed;
+  bottom: 0;
+  right: -100px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 -5px 10px rgba(0,0,0,0.2);
+}
+
+.info-content {
+  /* display: none; */
+}
+
+.hidden {
+  display: none;
+}
+
+
+/* ... (your existing styles) ... */
+
+#navigation-buttons {
+  /* position: fixed;
+  bottom: 0; */
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background: #f9f9f9; /* Light gray background */
+  border-top: 1px solid #eaeaea; /* Light gray border */
+  display: flex;
+}
+
+#navigation-buttons button {
+  margin: 10 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#navigation-buttons button:hover {
+  background-color: #0056b3;
+}
